@@ -59,7 +59,7 @@ const data = [
                 { "Less than or equal to operator": "db.collection_name.find( { 'key' : { $lte: 90 } } ) // lte stands for less than or equal" },
                 { "Greater than operator": "db.collection_name.find( { 'key' : { $gt: 90 } } ) // gt stands for greater than" },
                 { "Greater than or equal operator": "db.collection_name.find( { 'key' : { $gte: 90 } } ) // gte stands for greater than or equal" },
-                { "For more operator go through this link": "https://docs.mongodb.com/manual/reference/operator/" }
+                { "For more operator go through this link": "https://docs.mongodb.com/manual/ reference/operator/ " }
             ]
     },
     {

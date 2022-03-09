@@ -21,6 +21,17 @@ const data = [
             "imgLink":"https://cyberhoot.com/wp-content/uploads/2020/07/Free-Courses-to-learn-JavaScript.jpg"
         }
     },
+    {
+        "JavaScript": {
+            "author": "Ujjawal Rachhoya",
+            "title": "React JS cheat sheet 📝",
+            "tag": "React",
+            "date": "14 Dec 2021",
+            "desc": "React is a JavaScript based library which is used to make awesome fronted single page web application. In this blogpost we will share React JS cheat sheet with you. I hope you love it.",
+            "link": "React-Cheat-Sheet",
+            "imgLink":"https://www.valuecoders.com/blog/wp-content/uploads/2016/08/react.png"
+        }
+    },
     
 ]
 
