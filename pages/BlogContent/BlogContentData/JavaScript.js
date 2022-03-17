@@ -1,6 +1,6 @@
 const data = [
     {
-        "JavaScript basics": [
+        "1. JavaScript basics": [
             { "Adding internal JavaScript to HTML": "<script type='text/javascript'>" },
             { "Connect to external JS file": "<script src='file_name.js'></script>" },
             { "Write function in JS": "function Function_name() {\r\n    \/\/ function body \r\n}" },
@@ -17,7 +17,7 @@ const data = [
         ]
     },
     {
-        "JavaScript loops": [
+        "2. JavaScript loops": [
             { "For loop syntex in JavaScript": "for(initialization; condition, incrementation){\n //code block to be executed\n}" },
             { "Example": "for(let i=0; i<6; i++){\n consoloe.log(i, ' ' ) \n}" },
             { "While loop syntex in JavaScript": "while(condition){\n //code to ecuted \n}" },
@@ -27,7 +27,7 @@ const data = [
         ]
     },
     {
-        "Strings in JavaScript": [
+        "3. Strings in JavaScript": [
             { "Initialization of string": "let s= 'it is a string''" },
             { "charAt method": "s.charAt(3) // return char at index of 3" },
             { "Concat strings method": "str1.concat(str2) // Join str2 at the end of str1" },
@@ -39,7 +39,7 @@ const data = [
         ]
     },
     {
-        "Arrays in JavaScript": [
+        "4. Arrays in JavaScript": [
             { "Initialization": " let arr = [ 4,5,3]" },
             { "Concat method": "arr.concat(arr2) // add arr2 elements at the end of arr" },
             { "Join method": "arr.join(' ') // convert array element to a space seprated string" },
@@ -50,7 +50,7 @@ const data = [
         ]
     },
     {
-        "Math operation methods": [
+        "5. Math operation methods": [
             { "Power method": "Math.pow(x, y) // return x to the power y" },
             { "Log method": "Math.log(2) // return log(2)" },
             { "Exponential method": "Math.exp(4) // return e to the power 4" },
@@ -60,7 +60,7 @@ const data = [
         ]
     },
     {
-        "JavaScript Dates": [
+        "6. JavaScript Dates": [
             { "Initialization": "let date = new Date() // use Date object" },
             { "Date method": "date.getDate() // return date from date object" },
             { "Day method": "date.getDay() // return day form date object" },
@@ -72,7 +72,7 @@ const data = [
     },
 
     {
-        "Events in JavaScript": [
+        "7. Events in JavaScript": [
             { "Click listener": "element.addEventListener('click', ()=>{\n //Code to be executed when an element clicked\n});\n" },
             { "Oncontextmenu listener": "element.addEventListener('oncontextmenu', ()=>{\n //Code to be executed when mouse's right click button fired \n});" },
 
@@ -87,13 +87,13 @@ const data = [
     },
 
     {
-        "Errors in JavaScript": [
+        "8. Errors in JavaScript": [
             { "Try and Catch": "try{\n   // Code to be try\n    }\ncatch(error){\n   // Code to be handle errors\n    }" }
         ]
     },
 
     {
-        "Window Methos": [
+        "9. Window Methos": [
             { "Alert Method": "Window.alert('What is your name') or alert('What is your name') // Used to alert something on the screen" },
             { "Blue Method": "Window.blue() or blue() // Used to remove focus from current window" },
             { "SetInterval Method": "setInterval(()=>{\n consoloe.log('Hi 😁') //Executed code at a cetain interval\n}, 1000);" },
@@ -107,7 +107,7 @@ const data = [
     },
 
     {
-        "Query and Get element method": [
+        "10. Query and Get element method": [
             { "querySelector": "document.querySelector('query') // select the 1st match element" },
             { "querySelectorAll": "docuemnt.querySelectorAll('query') // select all the matching element" },
             { "getElementsByTagName": "document.getElemetsByTagName('div') // Select element by tag name" },

@@ -1,8 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import HomeBlogComponent from './HomeBlogComponent'
 import data from "../blogs/BlogJSON"
 function HomeBlog() {
-    
+    const [countblog,setcountblog] = useState(0)
     return (
         <>
             <div className="container my-4">

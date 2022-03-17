@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { useRouter } from 'next/router'
 import Head from 'next/head';
 import Image from 'next/image'
@@ -6,7 +6,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import Link from "next/link"
 import 'react-toastify/dist/ReactToastify.css';
 function feedback() {
-
   const router = useRouter();
   const { slug } = router.query
   const [name, setname] = useState("");
@@ -36,8 +35,8 @@ function feedback() {
       .then(data => {
         console.log(data);
         setname(""), setemail(""), setdesc("");
-        // notify();
         alert("Your form submitted successfully");
+        router.push("/")
       }).catch((err) => {
         console.log(err)
       })
@@ -59,7 +58,7 @@ function feedback() {
                 height={400}
               />
             </div>
-            <Link href={`/blogpost/${slug}-cheat-sheet`}><button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+            <Link href={`/blogpost/${slug}`}><button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
               Go to blog
             </button></Link>
 
